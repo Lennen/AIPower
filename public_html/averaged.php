@@ -351,7 +351,7 @@ function SheetJSHTMLView() {
         /*
         let dataArray =  [
           ['Год', 'Янв', 'Фев', 'Мар', 'Апр', 'Май'],
-          ['2016', 1000, 400, 200, 100, 100]
+          ['Месяцы', 1000, 400, 200, 100, 100]
         ];
         */
         var data = google.visualization.arrayToDataTable(barTemperatureData);

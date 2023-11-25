@@ -165,7 +165,7 @@ function SheetJSHTMLView() {
     }
     
     async function getXLSXdata(url){
-        const workbook = XLSX.read(await (await fetch(url)).arrayBuffer(), {sheetRows:1200});
+        const workbook = XLSX.read(await (await fetch(url)).arrayBuffer(), {sheetRows:5000});
         /* get first worksheet */
         const worksheet = workbook.Sheets[workbook.SheetNames[0]];
         /* generate and display HTML */
